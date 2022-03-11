@@ -15,7 +15,6 @@ for (small = 'z'; small >= 'a'; small--)
 {
 putchar(small);
 }
-   
 putchar('\n');
 return (0);
 }
