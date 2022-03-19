@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  * main - main function .
  *
@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-char h[] = "Holberton";
+char h[] = "_putchar";
 int s = sizeof(h);
 int i;
 
