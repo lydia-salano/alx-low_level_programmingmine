@@ -5,8 +5,9 @@
  * Description: It prints 9 times table starting with 0
  * Return: Nothing.
  */
-void times_table(void)
+int main(void)
 {
+	times_table();
 	int i, j, n;
 
 	for (i = 0; i <= 9; i++)
