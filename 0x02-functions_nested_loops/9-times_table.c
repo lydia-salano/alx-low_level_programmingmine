@@ -7,8 +7,10 @@
  */
 int main(void)
 {
-	times_table();
-	int i, j, n;
+times_table();
+	int i;
+	int j; 
+	int n;
 
 	for (i = 0; i <= 9; i++)
 	{
@@ -39,5 +41,5 @@ int main(void)
 		}
 		_putchar('\n');
 	}
-	return o
+return 0
 }
