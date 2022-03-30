@@ -2,7 +2,7 @@
  * File: 6-is_prime_number.c
  */
 
-#include "holberton.h"
+#include "mainn.h"
 
 int is_divisible(int num, int div);
 int is_prime_number(int n);
