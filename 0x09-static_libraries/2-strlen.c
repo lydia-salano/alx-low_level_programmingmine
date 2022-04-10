@@ -1,17 +1,21 @@
 #include "main.h"
-
 /**
- * _strlen - Returns the length of a string.
- * @str: string.
+ *_memset - fill a block of memory with a specific value
+ *@s: starting address of memory to be filled
+ *@b: the desired value
+ *@n: number of bytes to be changed
  *
- * Return: length.
+ *Return: changed array with new value for n bytes
  */
-size_t _strlen(const char *str)
+char *_memset(char *s, char b, unsigned int n)
 {
-	size_t len = 0;
+	int i = 0;
 
-	while (*str++)
-		len++;
-
-	return (len);
+	while (n > 0)
+	{
+		s[i] = b;
+		i++;
+		n--;
+	}
+	return (s);
 }
