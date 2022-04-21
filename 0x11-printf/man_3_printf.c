@@ -1,4 +1,4 @@
-.TH man 3 "17 March 2019" "ALX SCHOOL" "_PRINTF"
+.TH man 3 "22 apr 2022" "ALX SCHOOL" "_PRINTF"
 .SH NAME
 .B _printf
 - formatted output conversion
